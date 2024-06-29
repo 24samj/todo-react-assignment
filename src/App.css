@@ -1,0 +1,26 @@
+.header-add-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.add-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+    color: white;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.add-button:hover {
+    color: black;
+    background-color: #00b87c;
+}
